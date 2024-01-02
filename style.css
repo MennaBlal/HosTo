@@ -1,0 +1,85 @@
+#collapsibleNavbar{
+    justify-content: end ;
+}
+.container-fluid i{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right: 1%;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: black;
+}
+.container-fluid a:hover{
+    color: rgb(114, 235, 114);
+
+}
+.nav-item :hover{
+    border-top: 10px solid rgb(114, 235, 114);
+}
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+.container{
+    margin-top: 10%;
+}
+
+.card{
+    background-color:rgb(61, 138, 61) ;
+    color: white;
+}
+.whiteCard{
+    background-color:white ;
+    color: black;
+}
+.item1{
+    background-color: rgb(219, 212, 212);
+}
+.card-header{
+    font-size: 26px;
+}
+.thumbs-up {
+    width: 30%;
+    margin-left: 35%;
+    font-size: 50px;
+    margin-top: 5%;
+}
+.card {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width if required */
+}
+.card h6 {
+    margin-right: 10%;
+}
+.plans h6{
+    background: #ffffff;
+    border: 2px solid rgb(61, 138, 61);
+    border-radius: 50%;
+    color: #000000;
+    display: inline-block;
+    font-size: 20px;
+    height: 110px;
+    margin: -50px 90px -25px;
+    margin-left: 77%;
+    padding: 20px 0 0;
+    width: 110px;
+    /* margin-bottom: 0.5%; */
+    font-weight: 400;
+}
+.LC{
+    background-color: white;
+    color: rgb(61, 138, 61);
+}
+.item2{
+    background-color: white;
+    color: rgb(61, 138, 61);
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+@media (max-width: 768px) {
+    .LC {
+        flex-direction: column;
+    }
+}
